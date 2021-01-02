@@ -1,0 +1,28 @@
+{
+  "name": "@psibean/typeorm-provider",
+  "version": "0.0.3",
+  "description": "A TypeORM based provider for discord-akairo.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "author": "Psi",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "discord-js",
+    "discord.js",
+    "discord-akairo",
+    "typeorm"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psibean/typeorm-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psibean/typeorm-provider/issues"
+  },
+  "homepage": "https://github.com/psibean/typeorm-provider#readme"
+}

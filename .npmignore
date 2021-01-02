@@ -1,0 +1,8 @@
+node_modules
+.git
+.vscode
+.eslintrc.json
+.gitattributes
+.gitignore
+tsconfig.json
+*.tgz
