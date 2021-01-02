@@ -1,7 +1,7 @@
 const { Provider } = require('discord-akairo');
 
 /**
- * Provider using the `sequelize` library.
+ * Provider using the `typeorm` library.
  * @param {Repository} repository - A typeorm repository.
  * @param {ProviderOptions} [options={}] - Options to use.
  * @extends {Provider}
