@@ -1,11 +1,11 @@
 # TypeORMProvider
 
-I'm using TypeORM with [discord.js](https://github.com/discordjs/discord.js) and [discord-akairo](https://github.com/discord-akairo), since discord-akairo does not yet natively support a TypeORM provider, I made this one! Nothing special, all I did was copy the SequelizeProvider and update it to use a TypeORM Repository instead.
+I'm using [TypeORM](https://github.com/typeorm/typeorm) with [discord.js](https://github.com/discordjs/discord.js) and [discord-akairo](https://github.com/discord-akairo), since discord-akairo does not yet natively support a TypeORM provider, I made this one! Nothing special, all I did was copy the SequelizeProvider and update it to use a TypeORM Repository instead.
 
 Feel free to use this and make changes, happy to accept pull requests if I've messed something up or overlooked / misunderstood something.
 
 ## Installation
-Ensure you have both [discord.js](https://github.com/discordjs/discord.js) and [discord-akairo](https://github.com/discord-akairo) installed.
+Ensure you have [TypeORM](https://github.com/typeorm/typeorm), [discord.js](https://github.com/discordjs/discord.js), and [discord-akairo](https://github.com/discord-akairo) already installed.
 
 ```
 npm install @psibean/typeorm-provider
