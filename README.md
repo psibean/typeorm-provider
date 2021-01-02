@@ -5,6 +5,7 @@ I'm using TypeORM with [discord.js](https://github.com/discordjs/discord.js) and
 Feel free to use this and make changes, happy to accept pull requests if I've messed something up or overlooked / misunderstood something.
 
 ## Installation
+Ensure you have both [discord.js](https://github.com/discordjs/discord.js) and [discord-akairo](https://github.com/discord-akairo) installed.
 
 ```
 npm install @psibean/typeorm-provider
