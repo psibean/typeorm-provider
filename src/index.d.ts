@@ -14,6 +14,6 @@ declare module "@psibean/typeorm-provider" {
     public delete(id: string, key: string): Promise<boolean>;
     public get(id: string, key: string, defaultValue: any): any;
     public init(): Promise<void>;
-    public set(id: string, key: string, value: any, defaultData: object): Promise<boolean>;
+    public set(id: string, key: string, value: any, defaultData?: object): Promise<boolean>;
   }
 }
