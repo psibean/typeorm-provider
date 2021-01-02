@@ -13,7 +13,7 @@ npm install @psibean/typeorm-provider
 ## Usage
 
 ```
-import { TypeORMProvider } from '@psibean/typeorm-provider;
+import { TypeORMProvider } from '@psibean/typeorm-provider';
 ```
 ```
 const { TypeORMProvider } = require('@psibean/typeorm-provider')

@@ -1,6 +1,6 @@
 {
   "name": "@psibean/typeorm-provider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A TypeORM based provider for discord-akairo.",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
