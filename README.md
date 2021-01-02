@@ -17,7 +17,7 @@ npm install @psibean/typeorm-provider
 import { TypeORMProvider } from '@psibean/typeorm-provider';
 ```
 ```
-const { TypeORMProvider } = require('@psibean/typeorm-provider')
+const { TypeORMProvider } = require('@psibean/typeorm-provider');
 ```
 ```
 provider = new 
@@ -41,4 +41,4 @@ If there is no record for the provided id, then a new record will be created tha
 
 If the provided key matches one of the keys in the defaultData the passed value will overwrite the default.
 
-It otherwise works the same as the other providers, the only difference is isntead of taking the actual model / entity, it takes the repository instead.
+It otherwise works the same as the other providers, the only difference is instead of taking the actual model / entity, it takes the repository instead.
