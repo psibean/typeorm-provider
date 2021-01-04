@@ -120,9 +120,7 @@ class TypeORMProvider extends Provider {
      */
     clear(id) {
         this.items.delete(id);
-        return this.repository.delete(id).then(() => {
-            return true;
-        });
+        return this.repository.delete(id);
     }
 }
 
