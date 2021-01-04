@@ -105,7 +105,7 @@ class TypeORMProvider extends Provider {
             });
         }
 
-        return this.table.save({
+        return this.repository.save({
             [this.idColumn]: id,
             [key]: null
         }).then(entity => {
