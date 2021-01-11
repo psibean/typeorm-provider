@@ -1,5 +1,5 @@
 declare module "@psibean/typeorm-provider" {
-  import { Collection } from "discord.js'";
+  import { Collection } from "discord.js";
   import { Provider, ProviderOptions } from "discord-akairo";
 
   export class TypeORMProvider extends Provider {
