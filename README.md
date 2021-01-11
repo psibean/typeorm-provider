@@ -1,5 +1,7 @@
 # TypeORMProvider
 
+Note: I've shifted to my [PrismaProvider](https://github.com/psibean/prisma-provider)
+
 I'm using [TypeORM](https://github.com/typeorm/typeorm) with [discord.js](https://github.com/discordjs/discord.js) and [discord-akairo](https://github.com/discord-akairo), since discord-akairo does not yet natively support a TypeORM provider, I made this one! Nothing special, all I did was copy the SequelizeProvider and update it to use a TypeORM Repository instead.
 
 Feel free to use this and make changes, happy to accept pull requests if I've messed something up or overlooked / misunderstood something.
