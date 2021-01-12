@@ -80,7 +80,7 @@ class TypeORMProvider extends Provider {
 
         return this.repository.save({
             [this.idColumn]: id,
-            [key]: value
+            ...data
         }).then(entity => {
             return entity[key] === value;
         });
